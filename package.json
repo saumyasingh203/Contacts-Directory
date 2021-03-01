@@ -1,0 +1,34 @@
+{
+  "name": "contacts-directory",
+  "version": "1.0.0",
+  "description": "contact manager app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saumyasingh203/Contacts-Directory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saumyasingh203/Contacts-Directory/issues"
+  },
+  "homepage": "https://github.com/saumyasingh203/Contacts-Directory#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.4",
+    "express": "^4.17.1",
+    "express-validate": "0.0.8",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.18",
+    "or": "^0.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
