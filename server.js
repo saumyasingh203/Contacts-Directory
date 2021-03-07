@@ -3,7 +3,9 @@ const express = require('express');
 const app = express();
 
 //creating an end point so that we get something when server starts
-//we can send a file too res.file
+//we can send a file too res.file but here we send a json object
+
+//now we will make 3 different files for our routes
 app.get('/', (req, res) => {res.json({msg: 'Welcome to the Contacts-Directory API by Saumya Singh'})})
 
 //while developing, use port 5000, .env.PORT is for after deployment
