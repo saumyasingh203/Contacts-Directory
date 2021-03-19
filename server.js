@@ -1,6 +1,11 @@
 const express = require('express');
+const connectDB = require('./config/db');
 
 const app = express();
+
+
+//Connect Database
+connectDB();
 
 //creating an end point so that we get something when server starts
 //we can send a file too res.file but here we send a json object

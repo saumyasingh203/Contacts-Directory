@@ -24,7 +24,7 @@
     "express": "^4.17.1",
     "express-validate": "0.0.8",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.11.18",
+    "mongoose": "^5.12.1",
     "or": "^0.2.0"
   },
   "devDependencies": {
