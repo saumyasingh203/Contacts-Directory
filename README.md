@@ -3,7 +3,7 @@
 This is a Contacts Directory where you can login into your Directory using your credentials which will be saved on our database and accesss your list of contacts.
 The backend is built in Node.js with a MongoDB Database to store the data for each contact.
 
-This is the full app. The API can be found <a href = "This is the full app. The API can be found here with documented endpoints" >here</a> with documented endpoints
+This is the full app. The API can be found <a href = "https://github.com/bradtraversy/contact_keeper_api">here</a> with documented endpoints
 
 ## Usage
 Install dependencies
