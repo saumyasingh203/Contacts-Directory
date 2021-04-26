@@ -7,6 +7,9 @@ const app = express();
 //Connect Database
 connectDB();
 
+//init middleware
+app.use(express.json({extended: false}));
+
 //creating an end point so that we get something when server starts
 //we can send a file too res.file but here we send a json object
 
