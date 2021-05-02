@@ -60,9 +60,12 @@ export default (state, action) => {
         current: null,
       };
     case FILTER_CONTACTS:
+      //value is "filtered" is being changed
       return {
         ...state,
         filtered: state.contacts.filter((contact) => {
+          //gi: global insensitive is for ignoring case, expression will come in a action.payload
+          //filter is inbuilt which will match by itself on contact name or email
           const regex = new RegExp(`${action.payload}`, "gi");
           return contact.name.match(regex) || contact.email.match(regex);
         }),

@@ -26,7 +26,7 @@ const ContactState = (props) => {
   //pull out the state and dispatch from our reducer using Use reducer hooks
   const [state, dispatch] = useReducer(contactReducer, initialState);
 
-  // Get Contacts
+  // Get Contacts: we are not sending anything so no need for config
   const getContacts = async () => {
     try {
       const res = await axios.get("/api/contacts");

@@ -13,8 +13,6 @@ const ContactItem = ({ contact }) => {
     clearCurrent();
   };
 
-  //we want Professional with P caps so use slice
-  //print icons for phone and email only if they exist
   return (
     <div className="card bg-light">
       <h3 className="text-primary text-left">
