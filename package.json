@@ -21,7 +21,6 @@
   "bugs": {
     "url": "https://github.com/saumyasingh203/Contacts-Directory/issues"
   },
-  "homepage": "https://github.com/saumyasingh203/Contacts-Directory#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.3.4",
