@@ -98,7 +98,6 @@ const ContactForm = () => {
       </div>
       {current && (
         <div>
-          h2-text-primary
           <button className="btn btn-light btn-block" onClick={clearAll}>
             Clear
           </button>
