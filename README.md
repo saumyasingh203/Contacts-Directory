@@ -3,6 +3,21 @@
 This is a Contacts Directory where you can login into your Directory using your credentials which will be saved on our database and accesss your list of contacts.
 The backend is built in Node.js with a MongoDB Database to store the data for each contact.
 
+<br>
+
+The below snippet shows a simple CRUD operation being performed in the Web Application.
+
+![screencast](client/public/crud.gif)
+<br>
+<br>
+<br>
+<br>
+
+You can login back to the App anytime to access your saved list of contacts. 
+<br>
+<br>
+![screencast](client/public/login.gif)
+
 
 ## Usage
 Install dependencies
